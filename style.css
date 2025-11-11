@@ -93,7 +93,7 @@ body.dark-mode {
     box-shadow: 0 0 10px #7cf03d;
 }
 
-/* --- Navbar Dark Mode --- */
+
 body.dark-mode .navbar {
     border-bottom: 1PX SOLID #000;
     background: #fff;
@@ -1157,22 +1157,35 @@ body.dark-mode .styled-line {
     .services-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+        align-items: stretch;
         min-height: auto;
-        gap: 20px;
+        gap: 1.5rem;
         margin: 0;
     }
 
     .services-box{
-        display: block;
+        width: 170px;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        margin-bottom: 20px;
+        align-items: center;
+        margin-bottom: 0;
         height: auto;
-        padding: 30px 20px;
+        padding: 2rem 1.5rem;
+        border-radius: 30px;
     }
 
+    .services-box i {
+        font-size: 3.2rem; 
+        padding: 12px; 
+    }
+    .services-info h4 {
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+    }
     .services-info p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        line-height: 1.4;
     }
 
     .skills-grid {
