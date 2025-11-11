@@ -1046,6 +1046,7 @@ body.dark-mode .styled-line {
         animation-delay: 0.5s;
         animation: bounce 2s infinite alternate;
     }
+    
 
 }
 @media(max-width:895px){
