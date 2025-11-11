@@ -1149,13 +1149,20 @@ body.dark-mode .styled-line {
     }
 
     .home-info h1{
-        font-size: 40px;
-        margin-top: 10px;
+        margin-top: 20px;
+        font-size: 25px;
+        padding-top: 20px;
     }
-
+    .home .home-info h2 .im{
+        font-size: 15px;
+    }
+    .home .home-info h2 .dev{
+        font-size: 15px;
+    }
     .home-info p{
         max-width: 600px;
         margin-bottom: 20px;
+        font-size: 13px;
     }
 
     .home-info .btn-sci {
@@ -1175,6 +1182,7 @@ body.dark-mode .styled-line {
         margin-left: 0;
     }
     .home .img-box{
+        top: 80px;
         height: 250px;
         width: 250px;
 
