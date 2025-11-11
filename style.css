@@ -1174,7 +1174,11 @@ body.dark-mode .styled-line {
     .btn-sci .sci {
         margin-left: 0;
     }
+    .home .img-box{
+        height: 250px;
+        width: 250px;
 
+    }
     .home-img .img-box .img-item img{
         width: 90%;
         top: 10px;
