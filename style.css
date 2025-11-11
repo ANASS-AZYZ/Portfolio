@@ -25,13 +25,12 @@ a {
     text-decoration: none;
 }
 
-/* --- Base & Dark Mode Body --- */
+
 body.dark-mode {
     background-color: #fff;
     color: #000;
 }
 
-/* --- Navbar --- */
 .navbar {
     background: #000;
     position: fixed;
@@ -131,7 +130,7 @@ body.dark-mode .navbar ul li button i {
     box-shadow: 0 0 10px #000;
 }
 
-/* --- Home Section --- */
+
 .home {
     display: flex;
     align-items: center;
@@ -201,6 +200,7 @@ body.dark-mode .navbar ul li button i {
     color: #7cf03d;
     margin: 0 8px;
     transition: .5s;
+    transition: 0.3s ease-in-out;
 }
 
 .btn-sci .sci a:hover {
@@ -258,7 +258,6 @@ body.dark-mode .navbar ul li button i {
     }
 }
 
-/* --- Home Dark Mode --- */
 body.dark-mode .home {
     color: #000;
 }
@@ -285,7 +284,7 @@ body.dark-mode .btn:hover {
 body.dark-mode .btn-sci .sci a {
     border: 2PX solid #000;
     color: #000;
-    transform: scale(1.2) translateY(-10px);
+        transition: 0.3s ease-in-out;
 }
 
 body.dark-mode .btn-sci .sci a:hover {
@@ -300,7 +299,7 @@ body.dark-mode .home-img .img-box .img-item {
     border: 2px solid #000;
 }
 
-/* --- General Headings --- */
+
 .heading {
     font-size: 30px;
     text-align: center;
@@ -312,7 +311,7 @@ body.dark-mode .heading {
     color: #000;
 }
 
-/* --- Education Section --- */
+
 .education {
     padding: 25px 9%;
     background: #000;
@@ -407,7 +406,7 @@ body.dark-mode .heading {
     text-align: left;
 }
 
-/* --- Education Dark Mode --- */
+
 body.dark-mode .education {
     background: #fff;
 }
@@ -428,7 +427,7 @@ body.dark-mode .timeline-content p {
     color: #000;
 }
 
-/* --- Scrollbar --- */
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -442,7 +441,7 @@ body.dark-mode .timeline-content p {
     width: 50px;
 }
 
-/* --- Services Section --- */
+
 .services {
     background-color: #000;
     color: #000;
@@ -516,7 +515,7 @@ body.dark-mode .timeline-content p {
     line-height: 22px;
 }
 
-/* --- Services Dark Mode (TSS7I7) --- */
+
 body.dark-mode .services {
     background-color: #fff;
     color: #000;
@@ -546,7 +545,6 @@ body.dark-mode .services-info p {
     text-align: center;
 }
 
-/* --- Skills Section --- */
 .skills {
     background-color: #000;
     padding: 50px 9%;
@@ -645,7 +643,7 @@ body.dark-mode .services-info p {
     color: #7cf03d;
 }
 
-/* --- Skills Dark Mode --- */
+
 body.dark-mode .skills {
     background-color: #fff;
     color: #000;
@@ -788,7 +786,7 @@ body.dark-mode .contact form textarea {
     display: block;
 }
 
-/* L'MESSAGE */
+
 #modal-message {
     font-size: 2rem;
     font-weight: 500;
@@ -813,7 +811,7 @@ body.dark-mode .contact .heading span {
     color: #7cf03d;
 }
 
-/* --- Footer Section --- */
+
 .footer {
     position: relative;
     bottom: 0;
