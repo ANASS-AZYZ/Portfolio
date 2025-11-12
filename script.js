@@ -4,9 +4,9 @@ let body = document.body;
 theme.addEventListener('click',function(){
     body.classList.toggle('dark-mode');
     if (body.classList.contains('dark-mode')){
-        theme.innerHTML= '<i class="bx bxs-moon"></i>';
+        theme.innerHTML= '<i class="bx bxs-sun"></i>';
     }else{
-        theme.innerHTML = '<i class="bx bxs-sun"></i>'
+        theme.innerHTML = '<i class="bx bxs-moon"></i>'
     }
 })
 
